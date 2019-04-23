@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/search_input_container"
+        android:layout_width="403dp"
+        android:layout_height="222dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:gravity="bottom|top"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="4dp">
+
+        <TextView
+            android:id="@+id/first_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter First Ingridient" />
+
+        <EditText
+            android:id="@+id/add_First"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="241dp" />
+
+        <TextView
+            android:id="@+id/second_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Second Ingridient" />
+
+        <EditText
+            android:id="@+id/add_Second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/third_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Third Ingridient" />
+
+        <EditText
+            android:id="@+id/add_Third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <Button
+            android:id="@+id/searching"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
